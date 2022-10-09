@@ -28,7 +28,7 @@ return [
 ----
 ### Tag Schedule Events
 
-To make a schedule event available to the scheduler, you need to tag it with `themepoint.scheduler.event`.
+To make a schedule event available to the scheduler, you need to tag it with `scheduler.schedule_event`.
 
 ```yaml
 services:
