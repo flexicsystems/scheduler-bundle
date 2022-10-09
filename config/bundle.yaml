@@ -1,0 +1,14 @@
+services:
+    _defaults:
+        autowire: true
+        autoconfigure: true
+
+    _instanceof:
+        ThemePoint\Scheduler\Interfaces\ScheduleEventInterface:
+            tags: [ 'scheduler.schedule_event' ]
+
+    ThemePoint\Scheduler\Command\RunWorkerCommand:
+        tags: [ 'console.command' ]
+        arguments:
+            $eventDispatcher: '@event_dispatcher'
+            $scheduleEvents: !tagged scheduler.schedule_event

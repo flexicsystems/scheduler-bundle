@@ -1,0 +1,41 @@
+{
+  "name": "themepoint/scheduler-bundle",
+  "type": "symfony-bundle",
+  "description": "Provides an scheduler bundle for symfony framework.",
+  "keywords": [
+    "symfony",
+    "sheduler"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Hendrik Legge",
+      "email": "info@themepoint.de",
+      "homepage": "https://themepoint.de"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "themepoint/scheduler": "^1.0.1",
+    "symfony/http-kernel": "^6.1.5",
+    "symfony/dependency-injection": "^6.1.5"
+  },
+  "require-dev": {
+    "ergebnis/php-cs-fixer-config": "^4.9.0",
+    "phpstan/phpstan": "^1.8.7",
+    "phpstan/phpstan-deprecation-rules": "^1.0.0",
+    "phpstan/phpstan-strict-rules": "^1.4.4"
+  },
+  "config": {
+    "platform": {
+      "php": "8.1"
+    },
+    "preferred-install": "dist",
+    "sort-packages": true
+  },
+  "autoload": {
+    "psr-4": {
+      "ThemePoint\\SchedulerBundle\\": "src/"
+    }
+  }
+}

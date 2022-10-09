@@ -1,0 +1,14 @@
+parameters:
+	checkMissingIterableValueType: false
+
+	inferPrivatePropertyTypeFromConstructor: true
+
+	level: max
+
+	parallel:
+		processTimeout: 120.0
+
+	paths:
+		- src/
+
+	tmpDir: .build/phpstan/
