@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "feaeb7bd4c2abf3cdcff3e59a4d5b22e",
+    "content-hash": "184583dc558828eddc3cfd5070e36fe5",
     "packages": [
         {
             "name": "dragonmantank/cron-expression",
@@ -73,12 +73,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flexicsystems/scheduler.git",
-                "reference": "17f79825cee22d65443528938094ce0bba324a1d"
+                "reference": "6568c3357610f70019d5350b00dbd63465c30b2a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flexicsystems/scheduler/zipball/17f79825cee22d65443528938094ce0bba324a1d",
-                "reference": "17f79825cee22d65443528938094ce0bba324a1d",
+                "url": "https://api.github.com/repos/flexicsystems/scheduler/zipball/6568c3357610f70019d5350b00dbd63465c30b2a",
+                "reference": "6568c3357610f70019d5350b00dbd63465c30b2a",
                 "shasum": ""
             },
             "require": {
@@ -121,7 +121,7 @@
                 "issues": "https://github.com/flexicsystems/scheduler/issues",
                 "source": "https://github.com/flexicsystems/scheduler/tree/1.0.0"
             },
-            "time": "2022-10-09T16:05:18+00:00"
+            "time": "2022-10-09T16:11:07+00:00"
         },
         {
             "name": "psr/container",
