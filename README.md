@@ -14,6 +14,17 @@ composer require themepoint/scheduler-bundle
 
 to install `themepoint/scheduler-bundle`.
 
+If you are using Symfony Flex, the bundle will be automatically enabled.
+To enable the bundle manually, add it to the list of registered bundles in the `config/bundles.php` file of your project:
+
+```php
+return [
+    // ...
+    ThemePoint\SchedulerBundle\SchedulerBundle::class => ['all' => true],
+    // ...
+];
+```
+
 ----
 ### Tag Schedule Events
 
