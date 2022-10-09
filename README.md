@@ -37,6 +37,14 @@ services:
       tags: [ 'scheduler.schedule_event' ]
 ```
 
+or
+
+```yaml
+services:
+  Your\Schedule\Event\Class:
+    tags: [ 'scheduler.schedule_event' ]
+```
+
 ----
 ### License
 This package is licensed using the GNU License.
