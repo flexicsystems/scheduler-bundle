@@ -1,5 +1,5 @@
 {
-  "name": "themepoint/scheduler-bundle",
+  "name": "flexic/scheduler-bundle",
   "type": "symfony-bundle",
   "description": "Provides an scheduler bundle for symfony framework.",
   "keywords": [
