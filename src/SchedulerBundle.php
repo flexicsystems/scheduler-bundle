@@ -3,14 +3,14 @@
 declare(strict_types=1);
 
 /**
- * Copyright (c) 2022-2022 ThemePoint
+ * Copyright (c) 2022-2022 Flexic
  *
  * @author Hendrik Legge <hendrik.legge@themepoint.de>
  *
  * @version 1.0.0
  */
 
-namespace ThemePoint\SchedulerBundle;
+namespace Flexic\SchedulerBundle;
 
 use Symfony\Component\DependencyInjection;
 use Symfony\Component\HttpKernel\Bundle\AbstractBundle;

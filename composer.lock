@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "6ca44cd37653bd3e31c40ac1ef5b86f4",
+    "content-hash": "feaeb7bd4c2abf3cdcff3e59a4d5b22e",
     "packages": [
         {
             "name": "dragonmantank/cron-expression",
@@ -66,6 +66,62 @@
                 }
             ],
             "time": "2022-09-10T18:51:20+00:00"
+        },
+        {
+            "name": "flexic/scheduler",
+            "version": "1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/flexicsystems/scheduler.git",
+                "reference": "17f79825cee22d65443528938094ce0bba324a1d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/flexicsystems/scheduler/zipball/17f79825cee22d65443528938094ce0bba324a1d",
+                "reference": "17f79825cee22d65443528938094ce0bba324a1d",
+                "shasum": ""
+            },
+            "require": {
+                "dragonmantank/cron-expression": "^3.3.2",
+                "php": "^8.1",
+                "psr/log": "^3.0.0",
+                "symfony/console": "^6.1.5",
+                "symfony/event-dispatcher": "^6.1.0",
+                "symfony/options-resolver": "^6.1.0"
+            },
+            "require-dev": {
+                "ergebnis/php-cs-fixer-config": "^4.9.0",
+                "phpstan/phpstan": "^1.8.8",
+                "phpstan/phpstan-deprecation-rules": "^1.0.0",
+                "phpstan/phpstan-strict-rules": "^1.4.4"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "Flexic\\Scheduler\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Hendrik Legge",
+                    "email": "info@themepoint.de",
+                    "homepage": "https://themepoint.de"
+                }
+            ],
+            "description": "Provides an scheduler extension.",
+            "keywords": [
+                "sheduler",
+                "symfony"
+            ],
+            "support": {
+                "issues": "https://github.com/flexicsystems/scheduler/issues",
+                "source": "https://github.com/flexicsystems/scheduler/tree/1.0.0"
+            },
+            "time": "2022-10-09T16:05:18+00:00"
         },
         {
             "name": "psr/container",
@@ -1542,62 +1598,6 @@
                 }
             ],
             "time": "2022-09-08T09:34:40+00:00"
-        },
-        {
-            "name": "themepoint/scheduler",
-            "version": "1.0.1",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ThemePoint/schedule.git",
-                "reference": "bc6a538ec296db0fdd779c0c50b57d1a7e962c7d"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ThemePoint/schedule/zipball/bc6a538ec296db0fdd779c0c50b57d1a7e962c7d",
-                "reference": "bc6a538ec296db0fdd779c0c50b57d1a7e962c7d",
-                "shasum": ""
-            },
-            "require": {
-                "dragonmantank/cron-expression": "^3.3.2",
-                "php": "^8.1",
-                "psr/log": "^3.0.0",
-                "symfony/console": "^6.1.5",
-                "symfony/event-dispatcher": "^6.1.0",
-                "symfony/options-resolver": "^6.1.0"
-            },
-            "require-dev": {
-                "ergebnis/php-cs-fixer-config": "^4.9.0",
-                "phpstan/phpstan": "^1.8.7",
-                "phpstan/phpstan-deprecation-rules": "^1.0.0",
-                "phpstan/phpstan-strict-rules": "^1.4.4"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "ThemePoint\\Scheduler\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Hendrik Legge",
-                    "email": "info@themepoint.de",
-                    "homepage": "https://themepoint.de"
-                }
-            ],
-            "description": "Provides an scheduler extension.",
-            "keywords": [
-                "sheduler",
-                "symfony"
-            ],
-            "support": {
-                "issues": "https://github.com/ThemePoint/schedule/issues",
-                "source": "https://github.com/ThemePoint/schedule/tree/1.0.1"
-            },
-            "time": "2022-10-09T14:30:57+00:00"
         },
         {
             "name": "webmozart/assert",

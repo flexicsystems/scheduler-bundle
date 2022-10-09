@@ -16,13 +16,13 @@
   ],
   "require": {
     "php": "^8.1",
-    "themepoint/scheduler": "^1.0.1",
+    "flexic/scheduler": "^1.0.0",
     "symfony/http-kernel": "^6.1.5",
     "symfony/dependency-injection": "^6.1.5"
   },
   "require-dev": {
     "ergebnis/php-cs-fixer-config": "^4.9.0",
-    "phpstan/phpstan": "^1.8.7",
+    "phpstan/phpstan": "^1.8.8",
     "phpstan/phpstan-deprecation-rules": "^1.0.0",
     "phpstan/phpstan-strict-rules": "^1.4.4"
   },
@@ -35,7 +35,7 @@
   },
   "autoload": {
     "psr-4": {
-      "ThemePoint\\SchedulerBundle\\": "src/"
+      "Flexic\\SchedulerBundle\\": "src/"
     }
   }
 }

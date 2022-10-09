@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /**
- * Copyright (c) 2022-2022 ThemePoint
+ * Copyright (c) 2022-2022 Flexic
  *
  * @author Hendrik Legge <hendrik.legge@themepoint.de>
  *
@@ -15,7 +15,7 @@ use Ergebnis\PhpCsFixer\Config;
 $year = \date('Y');
 
 $header = <<<TXT
-Copyright (c) 2022-{$year} ThemePoint
+Copyright (c) 2022-{$year} Flexic
 
 @author Hendrik Legge <hendrik.legge@themepoint.de>
 

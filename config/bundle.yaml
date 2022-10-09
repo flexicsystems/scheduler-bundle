@@ -4,10 +4,10 @@ services:
         autoconfigure: true
 
     _instanceof:
-        ThemePoint\Scheduler\Interfaces\ScheduleEventInterface:
+        Flexic\Scheduler\Interfaces\ScheduleEventInterface:
             tags: [ 'scheduler.schedule_event' ]
 
-    ThemePoint\Scheduler\Command\RunWorkerCommand:
+    Flexic\Scheduler\Command\RunWorkerCommand:
         tags: [ 'console.command' ]
         arguments:
             $eventDispatcher: '@event_dispatcher'

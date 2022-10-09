@@ -1,7 +1,7 @@
 🕧 PHP Scheduler Bundle
 ----------------
 
-Provides the integration of the [PHP Scheduler](https://github.com/ThemePoint/scheduler) library into Symfony Framework.
+Provides the integration of the [PHP Scheduler](https://github.com/flexicsystems/scheduler) library into Symfony Framework.
 
 ----
 ### Installation
@@ -9,10 +9,10 @@ Provides the integration of the [PHP Scheduler](https://github.com/ThemePoint/sc
 Run
 
 ```bash
-composer require themepoint/scheduler-bundle
+composer require flexic/scheduler-bundle
 ```
 
-to install `themepoint/scheduler-bundle`.
+to install `flexic/scheduler-bundle`.
 
 If you are using Symfony Flex, the bundle will be automatically enabled.
 To enable the bundle manually, add it to the list of registered bundles in the `config/bundles.php` file of your project:
@@ -20,7 +20,7 @@ To enable the bundle manually, add it to the list of registered bundles in the `
 ```php
 return [
     // ...
-    ThemePoint\SchedulerBundle\SchedulerBundle::class => ['all' => true],
+    Flexic\SchedulerBundle\SchedulerBundle::class => ['all' => true],
     // ...
 ];
 ```
@@ -33,7 +33,7 @@ To make a schedule event available to the scheduler, you need to tag it with `sc
 ```yaml
 services:
   _instanceof:
-    ThemePoint\Scheduler\Interfaces\ScheduleEventInterface:
+    Flexic\Scheduler\Interfaces\ScheduleEventInterface:
       tags: [ 'scheduler.schedule_event' ]
 ```
 
