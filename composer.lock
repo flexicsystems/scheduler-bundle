@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "307c5f9c81cbcb126633fc78339340b6",
+    "content-hash": "8816bd275d772de022fa398e809e8ec2",
     "packages": [
         {
             "name": "dragonmantank/cron-expression",
@@ -69,16 +69,16 @@
         },
         {
             "name": "flexic/scheduler",
-            "version": "1.0.0",
+            "version": "1.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flexicsystems/scheduler.git",
-                "reference": "6568c3357610f70019d5350b00dbd63465c30b2a"
+                "reference": "2d5d8b7a2e616d5a2fcd9f58084cedceda0c7319"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flexicsystems/scheduler/zipball/6568c3357610f70019d5350b00dbd63465c30b2a",
-                "reference": "6568c3357610f70019d5350b00dbd63465c30b2a",
+                "url": "https://api.github.com/repos/flexicsystems/scheduler/zipball/2d5d8b7a2e616d5a2fcd9f58084cedceda0c7319",
+                "reference": "2d5d8b7a2e616d5a2fcd9f58084cedceda0c7319",
                 "shasum": ""
             },
             "require": {
@@ -114,14 +114,13 @@
             ],
             "description": "Provides an scheduler extension.",
             "keywords": [
-                "sheduler",
-                "symfony"
+                "sheduler"
             ],
             "support": {
                 "issues": "https://github.com/flexicsystems/scheduler/issues",
-                "source": "https://github.com/flexicsystems/scheduler/tree/1.0.0"
+                "source": "https://github.com/flexicsystems/scheduler/tree/1.0.1"
             },
-            "time": "2022-10-09T16:11:07+00:00"
+            "time": "2022-11-07T10:46:16+00:00"
         },
         {
             "name": "psr/container",
