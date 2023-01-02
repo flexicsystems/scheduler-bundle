@@ -13,7 +13,7 @@ declare(strict_types=1);
 namespace Flexic\SchedulerBundle;
 
 use Flexic\Scheduler\Command\RunWorkerCommand;
-use Flexic\Scheduler\Interfaces\ScheduleEventInterface;
+use Flexic\Scheduler\Interfaces as SchedulerInterfaces;
 use Symfony\Component\DependencyInjection;
 use Symfony\Component\HttpKernel\Bundle\AbstractBundle;
 
@@ -30,7 +30,10 @@ final class SchedulerBundle extends AbstractBundle
             ->autowire()
             ->autoconfigure();
 
-        $services->instanceof(ScheduleEventInterface::class)
+        $services->instanceof(SchedulerInterfaces\ScheduleEventInterface::class)
+            ->tag('scheduler.schedule_event');
+
+        $services->instanceof(SchedulerInterfaces\ScheduleEventInterface::class)
             ->tag('scheduler.schedule_event');
 
         $services->set(RunWorkerCommand::class)
