@@ -33,9 +33,6 @@ final class SchedulerBundle extends AbstractBundle
         $services->instanceof(SchedulerInterfaces\ScheduleEventInterface::class)
             ->tag('scheduler.schedule_event');
 
-        $services->instanceof(SchedulerInterfaces\ScheduleEventInterface::class)
-            ->tag('scheduler.schedule_event');
-
         $services->set(RunWorkerCommand::class)
             ->tag('console.command')
             ->arg('$eventDispatcher', DependencyInjection\Loader\Configurator\service('event_dispatcher'))
