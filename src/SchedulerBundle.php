@@ -3,7 +3,7 @@
 declare(strict_types=1);
 
 /**
- * Copyright (c) 2022-2022 Flexic
+ * Copyright (c) 2022-2023 Flexic
  *
  * @author Hendrik Legge <hendrik.legge@themepoint.de>
  *
