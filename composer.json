@@ -6,7 +6,7 @@
     "symfony",
     "sheduler"
   ],
-  "license": "MIT",
+  "license": "GPL-3.0 license",
   "authors": [
     {
       "name": "Hendrik Legge",
