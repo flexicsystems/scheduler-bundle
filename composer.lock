@@ -127,12 +127,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/flexicsystems/scheduler.git",
-                "reference": "c85eb50f2bda7029ee799ccff127e1ac60e29628"
+                "reference": "7647e98b48bf126bdca9f3f4da4dbfa7f731e911"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flexicsystems/scheduler/zipball/c85eb50f2bda7029ee799ccff127e1ac60e29628",
-                "reference": "c85eb50f2bda7029ee799ccff127e1ac60e29628",
+                "url": "https://api.github.com/repos/flexicsystems/scheduler/zipball/7647e98b48bf126bdca9f3f4da4dbfa7f731e911",
+                "reference": "7647e98b48bf126bdca9f3f4da4dbfa7f731e911",
                 "shasum": ""
             },
             "require": {
@@ -176,7 +176,7 @@
                 "issues": "https://github.com/flexicsystems/scheduler/issues",
                 "source": "https://github.com/flexicsystems/scheduler/tree/main"
             },
-            "time": "2023-01-28T18:52:11+00:00"
+            "time": "2023-01-28T19:09:20+00:00"
         },
         {
             "name": "psr/container",
