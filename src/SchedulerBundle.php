@@ -39,6 +39,6 @@ final class SchedulerBundle extends AbstractBundle
         $services->set(RunWorkerCommand::class)
             ->tag('console.command')
             ->arg('$eventDispatcher', DependencyInjection\Loader\Configurator\service('event_dispatcher'))
-            ->arg('$scheduleEvents', DependencyInjection\Loader\Configurator\tagged_locator('scheduler.schedule_event'));
+            ->arg('$scheduleEvents', DependencyInjection\Loader\Configurator\tagged_iterator('scheduler.schedule_event'));
     }
 }
