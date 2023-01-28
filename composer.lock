@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "af57d4441252a76dde195ae89042b526",
+    "content-hash": "7687cb3f7391614d996d2cbaa2658b96",
     "packages": [
         {
             "name": "dragonmantank/cron-expression",
@@ -123,16 +123,16 @@
         },
         {
             "name": "flexic/scheduler",
-            "version": "2.0.0",
+            "version": "dev-main",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flexicsystems/scheduler.git",
-                "reference": "25af624f79bbdfe0f66e364aa25f647bb3a7bcc8"
+                "reference": "c85eb50f2bda7029ee799ccff127e1ac60e29628"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flexicsystems/scheduler/zipball/25af624f79bbdfe0f66e364aa25f647bb3a7bcc8",
-                "reference": "25af624f79bbdfe0f66e364aa25f647bb3a7bcc8",
+                "url": "https://api.github.com/repos/flexicsystems/scheduler/zipball/c85eb50f2bda7029ee799ccff127e1ac60e29628",
+                "reference": "c85eb50f2bda7029ee799ccff127e1ac60e29628",
                 "shasum": ""
             },
             "require": {
@@ -150,6 +150,7 @@
                 "phpstan/phpstan-deprecation-rules": "^1.0.0",
                 "phpstan/phpstan-strict-rules": "^1.4.4"
             },
+            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -173,9 +174,9 @@
             ],
             "support": {
                 "issues": "https://github.com/flexicsystems/scheduler/issues",
-                "source": "https://github.com/flexicsystems/scheduler/tree/2.0.0"
+                "source": "https://github.com/flexicsystems/scheduler/tree/main"
             },
-            "time": "2023-01-28T18:41:43+00:00"
+            "time": "2023-01-28T18:52:11+00:00"
         },
         {
             "name": "psr/container",
@@ -2914,7 +2915,9 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "flexic/scheduler": 20
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {

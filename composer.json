@@ -16,7 +16,7 @@
   ],
   "require": {
     "php": "^8.1",
-    "flexic/scheduler": "^2.0.0",
+    "flexic/scheduler": "dev-main",
     "symfony/dependency-injection": "^6.1.5",
     "symfony/http-kernel": "^6.1.5"
   },
