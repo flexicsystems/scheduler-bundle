@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "7687cb3f7391614d996d2cbaa2658b96",
+    "content-hash": "296ac681e2c0b1e786037c89dda1ccea",
     "packages": [
         {
             "name": "dragonmantank/cron-expression",
@@ -123,7 +123,7 @@
         },
         {
             "name": "flexic/scheduler",
-            "version": "dev-main",
+            "version": "2.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flexicsystems/scheduler.git",
@@ -150,7 +150,6 @@
                 "phpstan/phpstan-deprecation-rules": "^1.0.0",
                 "phpstan/phpstan-strict-rules": "^1.4.4"
             },
-            "default-branch": true,
             "type": "library",
             "autoload": {
                 "psr-4": {
@@ -174,7 +173,7 @@
             ],
             "support": {
                 "issues": "https://github.com/flexicsystems/scheduler/issues",
-                "source": "https://github.com/flexicsystems/scheduler/tree/main"
+                "source": "https://github.com/flexicsystems/scheduler/tree/2.0.1"
             },
             "time": "2023-01-28T19:09:20+00:00"
         },
@@ -2915,9 +2914,7 @@
     ],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "flexic/scheduler": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
