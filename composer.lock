@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4a7f8d17113cfed1fc10f93e025b2838",
+    "content-hash": "451a62e0750c2aacc4231d8ac06ab24e",
     "packages": [
         {
             "name": "dragonmantank/cron-expression",
@@ -123,16 +123,16 @@
         },
         {
             "name": "flexic/scheduler",
-            "version": "2.0.2",
+            "version": "2.0.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flexicsystems/scheduler.git",
-                "reference": "a0050687144337908119919c0da5641ac54fa280"
+                "reference": "4705e61559543b798ecb9570c4ff947c624554a7"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flexicsystems/scheduler/zipball/a0050687144337908119919c0da5641ac54fa280",
-                "reference": "a0050687144337908119919c0da5641ac54fa280",
+                "url": "https://api.github.com/repos/flexicsystems/scheduler/zipball/4705e61559543b798ecb9570c4ff947c624554a7",
+                "reference": "4705e61559543b798ecb9570c4ff947c624554a7",
                 "shasum": ""
             },
             "require": {
@@ -173,9 +173,9 @@
             ],
             "support": {
                 "issues": "https://github.com/flexicsystems/scheduler/issues",
-                "source": "https://github.com/flexicsystems/scheduler/tree/2.0.2"
+                "source": "https://github.com/flexicsystems/scheduler/tree/2.0.3"
             },
-            "time": "2023-03-04T16:44:14+00:00"
+            "time": "2023-03-04T23:09:55+00:00"
         },
         {
             "name": "psr/container",
